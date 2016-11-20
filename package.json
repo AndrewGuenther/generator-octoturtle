@@ -1,0 +1,56 @@
+{
+  "name": "generator-octoturtle",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "",
+  "author": {
+    "name": "Andrew Guenther",
+    "email": "guenther.andrew.j@gmail.com",
+    "url": "http://ajguenther.com"
+  },
+  "files": [
+    "generators/express",
+    "generators/lambda"
+  ],
+  "main": "generators/index.js",
+  "keywords": [
+    "octoturtle",
+    "github",
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "deep-extend": "^0.4.1",
+    "generator-npm-init": "^1.3.0",
+    "lodash.kebabcase": "^4.1.1",
+    "mkdirp": "^0.5.1",
+    "path": "^0.12.7",
+    "yeoman-generator": "^0.23.0"
+  },
+  "devDependencies": {
+    "yeoman-test": "^1.0.0",
+    "yeoman-assert": "^2.0.0",
+    "eslint": "^3.1.1",
+    "eslint-config-xo-space": "^0.15.0",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^3.0.1",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-line-ending-corrector": "^1.0.1",
+    "gulp-istanbul": "^1.0.0",
+    "gulp-mocha": "^3.0.1",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^2.1.0",
+    "gulp-coveralls": "^0.1.0"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "mocha": true
+    }
+  },
+  "repository": "AndrewGuenther/generator-octoturtle",
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "MIT"
+}
