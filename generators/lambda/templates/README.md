@@ -1,4 +1,4 @@
-# <%= name %>
+# Octoturtle
 
 ## Creating Rules
 
@@ -31,6 +31,9 @@ You can find more details about deploying Javascript functions to Lambda in the
 [Gordon docs][2]
 
 ### Setting up your Webhook
+
+Github's own documentation provides an excellent explanation of how to configure
+and create your webhook: https://developer.github.com/webhooks/creating/
 
 [0]: http://ajguenther.com/octoturtle/
 [1]: http://gordon.readthedocs.io/
