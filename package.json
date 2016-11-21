@@ -1,8 +1,8 @@
 {
   "name": "generator-octoturtle",
   "version": "1.0.0",
-  "description": "",
-  "homepage": "",
+  "description": "Yeoman generators for Octoturtle",
+  "homepage": "http://ajguenther.com/octoturtle",
   "author": {
     "name": "Andrew Guenther",
     "email": "guenther.andrew.j@gmail.com",
